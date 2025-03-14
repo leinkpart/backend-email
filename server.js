@@ -11,8 +11,8 @@ const app = express();
 app.use(express.json());
 
 // 3. Cấu hình các biến (thay đổi thông tin của bạn tại đây)
-const GMAIL_USER = 'linhpeter04@gmail.com';       // Thay bằng địa chỉ Gmail của bạn
-const GMAIL_PASS = 'yvsl vpop mwms ymdt';           // Thay bằng App Password của bạn
+const GMAIL_USER = 'linhpeter04@gmail.com';       
+const GMAIL_PASS = 'yvsl vpop mwms ymdt';          
 const PORT = process.env.PORT || 3000;  // Hoặc thay đổi cổng nếu cần
 
 // 4. Cấu hình Nodemailer với Gmail và bỏ qua kiểm tra chứng chỉ
